@@ -8,12 +8,14 @@ import ProductComparison from "./pages/ProductComparison";
 import SingleProduct from "./pages/SingleProduct";
 import Blog from "./pages/Blog";
 import NoPage from "./pages/NoPage";
+import Auth from "./components/Auth";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route index element={<Home />} />
+        <Route path="login" element={<Auth />} />
         <Route path="blog" element={<Blog />} />
         <Route path="contact" element={<Contact />} />
         <Route path="single-product" element={<SingleProduct />} />

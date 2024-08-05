@@ -12,7 +12,7 @@ export default function Navbar() {
   ];
 
   return (
-    <header className="flex items-center justify-center bg-white h-20">
+    <header className="flex items-center justify-center bg-white h-20 fixed w-full">
       <div className="navbar w-[90%]">
         <div className="navbar-start">
           <div className="dropdown ">
